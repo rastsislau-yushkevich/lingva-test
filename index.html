@@ -1,13 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="./styles/styles.css" ref="stylesheet"/> 
+    <title>Lingvanex</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <h2 class="header container__header">
+            Travel and Hospitality
+        </h2>
+        <!-- Manrope font for some reason, while in other cases it's also Inter -->
+        <p class="description container__description travel-container__description">
+            Offline & Online Translation: image translation, translation history, file translation, <br />
+            bookmarks, dictionary meaning.
+        </p>
+        <!-- Is that a button or a link to a different page? -->
+        <button class="container__button">
+            Request a free trial
+        </button>
+    </div>
+    <div class="container solution-container">
+        <h2 class="header container__header">
+            Our language solution
+        </h2>
+        <p class="description container__description solution__description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br />
+            Ipsum has been the industry's standard dummy text ever since
+        </p>
+        <div class="solutions">
+            <div class="solution__card">
+                <h3 class="header solution__card__header">
+                    Translation
+                </h3>
+                <p class="description solution__card__description">
+                    Unlimited and secure translation for fixed
+                    price. Translate billions of characters per day
+                </p>
+                <div class="solution__card__image">
+                    <img src="./media/translation.svg" alt="Translation image">
+                </div>
+            </div>
+            <div class="solution__card">
+                <h3 class="header solution__card__header">
+                    Social listening
+                </h3>
+                <p class="description solution__card__description">
+                    Unlimited and secure translation for fixed price. Translate billions of characters per day
+                </p>
+                <div class="solution__card__image">
+                    <img src="./media/social-listening.svg" alt="Social listening image">
+                </div>
+            </div>
+            <div class="solution__card">
+                <h3 class="header solution__card__header">
+                    Content generation
+                </h3>
+                <p class="description solution__card__description">
+                    Unlimited and secure translation for fixed
+                    price. Translate billions of characters per day
+                </p>
+                <div class="solution__card__image">
+                    <img src="./media/content-gen.svg" alt="Content generation image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container target-container">
+        <div class="header container__header target-container__header">
+            Who is this product for?
+        </div>
+        <p class="description container__description target-container__description">
+            Lingvanex Bot can simply solve a language barrier problem in your team, community, <br />
+            with your international clients and outsourcing partners. It automatically identifies the languages <br />
+            in a conversation and translates all messages of your team members into a chosen language.
+        </p>
+        <div class="targets">
+            <div class="targets__tabs">
+                <button id="travellers-btn" class="targets__tabs__btn targets__tabs__btn_active">
+                    For travelers
+                </button>
+                <button id="travelOrgs-btn" class="targets__tabs__btn">
+                    For travel organization
+                </button>
+                <button id="employees-btn" class="targets__tabs__btn">
+                    For employees
+                </button>
+            </div>
+            <div id="top-card" class="targets__card targets__top-card targets__card_active">
+                <div class="targets__card__info">
+                    <h3 class="header info__header">
+                        For travelers
+                    </h3>
+                    <ul class="info__list">
+                        <li>Highlight one word in the text on the page.</li>
+                        <li>Word meaning, pronunciation, synonyms, hypernyms, hyponyms . and more.</li>
+                        <li>Highlight one word in the text on the page.</li>
+                        <li>Word meaning, pronunciation, synonyms, hypernyms, hyponyms . and more. </li>
+                    </ul>
+                </div>
+                <div class="targets__card__image">
+                    <img src="./media/travel.webp" alt="Shows people with luggage">
+                </div>
+            </div>
+            <div id="mid-card" class="targets__card targets__mid-card targets__card_inactive">
+                <div class="targets__card__info">
+                    <h3 class="header info__header">
+                        For travel organization
+                    </h3>
+                    <ul class="info__list">
+                        <li>Highlight one word in the text on the page.</li>
+                        <li>Word meaning, pronunciation, synonyms, hypernyms, hyponyms . and more.</li>
+                        <li>Highlight one word in the text on the page.</li>
+                        <li>Word meaning, pronunciation, synonyms, hypernyms, hyponyms . and more. </li>
+                    </ul>
+                </div>
+                <div class="targets__card__image">
+                    <img src="./media/employees.webp" alt="Shows employees">
+                </div>
+            </div>
+            <div id="bottom-card" class="targets__card targets__bottom-card targets__card_inactive">
+                <div class="targets__card__info">
+                    <h3 class="header info__header">
+                        For employees
+                    </h3>
+                    <ul class="info__list">
+                        <li>Highlight one word in the text on the page.</li>
+                        <li>Word meaning, pronunciation, synonyms, hypernyms, hyponyms . and more.</li>
+                        <li>Highlight one word in the text on the page.</li>
+                        <li>Word meaning, pronunciation, synonyms, hypernyms, hyponyms . and more. </li>
+                    </ul>
+                </div>
+                <div class="targets__card__image">
+                    <img src="./media/travel-org.webp" alt="Shows a plane model on the table">
+                </div>
+            </div>
+        </div>
+        <button class="container__button">
+            Request a free trial
+        </button>
+    </div>
     <script src="./scripts/script.js"></script>
 </body>
+
 </html>
